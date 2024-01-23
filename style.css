@@ -14,7 +14,7 @@
 :root {
   
   --text-color: #050506;
-  --main-color:  rgb(180, 151, 244);
+  --main-color:  rgb(126, 75, 234);
   --white-color: #fdfdfd;
   --shadow-color: rgba(4, 1, 1, 0.911);
   --ds-color: skyblue;
@@ -42,7 +42,7 @@ body {
   left: 0;
   width: 100%; 
   padding: 2rem 7%;
-  background: rgb(182, 156, 241);
+  background: rgb(159, 125, 237);
   box-shadow:inset;
   display: flex;
   align-items: center;
@@ -70,7 +70,7 @@ body {
   border: solid transparent;
   color: var(--white-color);
   font-weight: 600;
-  margin-right: 1.5rem;
+  margin-right: 1.2rem;
   transition: .5s ease;
 }
 .btnn{
@@ -605,18 +605,29 @@ span {
   @media (max-width: 1024px) {
     .header {
       padding: 2rem 3%;
+      font-size: medium;
+    }
+    section .about{
+      padding: 13rem 3% 2rem;
     }
     section{
-      padding: 10rem 3% 2rem;
+      padding: 11rem 3% 2rem;
     }
+    
   }
   @media (max-width:788px){
+    .home-content{
+      font-size: smaller;
+    }
+    .nabvar a{
+      font-size: small;
+    }
     .nabvar{
       position: absolute;
       top: 100%;
       left: 0;
       width: 100%;
       padding: 1rem 3%;
-      background: rgb(116, 117, 118);
+      background: rgb(57, 57, 57);
     }
   }

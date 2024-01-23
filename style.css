@@ -14,7 +14,7 @@
 :root {
   
   --text-color: #050506;
-  --main-color:  #02d41b;
+  --main-color:  rgb(184, 158, 239);
   --white-color: #fdfdfd;
   --shadow-color: rgba(4, 1, 1, 0.911);
   --ds-color: skyblue;
@@ -42,7 +42,7 @@ body {
   left: 0;
   width: 100%; 
   padding: 2rem 7%;
-  background: rgb(191, 181, 215);
+  background: rgb(192, 179, 223);
   box-shadow:inset;
   display: flex;
   align-items: center;
@@ -70,7 +70,7 @@ body {
   border: solid transparent;
   color: var(--white-color);
   font-weight: 600;
-  margin-right: 3.5rem;
+  margin-right: 1.5rem;
   transition: .5s ease;
 }
 .btnn{
@@ -81,9 +81,9 @@ body {
   background: white;
 }
 .nabvar a:hover {
-  border-top-color: #02d41b;
-  border-bottom-color: #02d41b;
-  color: #02d41b;
+  border-top-color: var(--main-color);
+  border-bottom-color: var(--main-color);
+  color: var(--main-color);
 }
 
 .header.sticky .nabvar a{
@@ -104,7 +104,9 @@ body {
   color: var(--white-color);
   cursor: pointer;
 }
+.bx-bx-menu{
 
+}
 .header.sticky #darkMode-icon {
   color: var(--text-color);
   opacity: .9;
@@ -526,7 +528,7 @@ span {
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 0.3rem;
 
   }
   .info{
@@ -561,7 +563,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem 7%;
-    background: var(--my-color);
+    background: rgb(192, 179, 223);
   }
   .footer-iconTop:hover{
     color: var(--main-color);
@@ -578,12 +580,12 @@ span {
     padding: .8rem;
     background: var(--white-color);
     border-radius: .8rem;
-    border: .2rem solid var(--my-color);
+    border: .2rem solid rgb(192, 179, 223);
   }
 
   .footer-iconTop a i {
     font-size: 2.4rem;
-    color: #333;
+    color: rgb(192, 179, 223);
   }
 
   @media (max-width: 1200px) {
@@ -606,17 +608,17 @@ span {
     .header {
       padding: 2rem 3%;
     }
+    section{
+      padding: 10rem 3% 2rem;
+    }
   }
   @media (max-width:788px){
-    #menu-icon{
-      display: block;
-    }
     .nabvar{
       position: absolute;
       top: 100%;
       left: 0;
       width: 100%;
       padding: 1rem 3%;
-      background: var(--bg-color);
+      background: rgb(116, 117, 118);
     }
   }
